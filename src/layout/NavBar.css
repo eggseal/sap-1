@@ -1,0 +1,21 @@
+.navbar {
+    color: var(--bg-100);
+    background-color: hsl(210, 100%, 10%);
+}
+.nav-content {
+    display: flex;
+    gap: clamp(1rem, 5vw, 5rem);
+    margin: 0 auto;
+    padding: 1rem .5rem;
+    width: var(--content-width);
+}
+.nav-element {
+    color: white;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    transition: 150ms;
+}
+.nav-element:hover {
+    color: var(--bg-300);
+    border-color: var(--bg-300);
+}
