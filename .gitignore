@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# VSCode config files
+.vscode
+
+# Proteus project files
+*.workspace
+*.bak
+**/Project Backups/*
+
+# Arduino compiled binaries
+**/ControlUnit/build/**/*.*
